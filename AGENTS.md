@@ -1,10 +1,10 @@
-# Template CSR FE
+# Template SSR FE
 
 ## Environment & Tooling
 
 - Use Bun for installs, scripts, and lockfile updates.
 - Run lint/format tasks with Bun (`bun run lint`, `bun run check`).
-- Routing is file-based via TanStack Router — run `tsr generate` (or `bun run build`) to regenerate `routeTree.gen.ts` after adding/removing route files.
+- Routing is file-based via TanStack Start — run `bun run build` to regenerate route files after adding/removing route files.
 
 ## Project Structure
 
