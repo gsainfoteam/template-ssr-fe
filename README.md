@@ -1,14 +1,14 @@
-# Template CSR FE
+# Template SSR FE
 
-GSA Infoteam CSR(Client-Side Rendering) 프론트엔드 프로젝트 템플릿.
+GSA Infoteam SSR(Server-Side Rendering) 프론트엔드 프로젝트 템플릿.
 
 ## Tech Stack
 
 | 분류                   | 라이브러리                            |
 | ---------------------- | ------------------------------------- |
-| 번들러                 | Vite                                  |
+| 번들러                 | Vite (TanStack Start)                 |
 | UI                     | React 19                              |
-| 라우팅                 | TanStack Router (파일 기반)           |
+| 라우팅 / SSR           | TanStack Start (파일 기반)            |
 | 서버 상태              | TanStack Query                        |
 | 스타일                 | Tailwind CSS v4                       |
 | 국제화                 | i18next + react-i18next + i18next-cli |
