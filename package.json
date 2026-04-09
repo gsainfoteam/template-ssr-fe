@@ -30,6 +30,7 @@
     "dayjs": "^1.11.20",
     "i18next": "^25.10.3",
     "i18next-http-backend": "^3.0.2",
+    "i18next-resources-to-backend": "^1.2.1",
     "lucide-react": "^0.545.0",
     "openapi-fetch": "^0.17.0",
     "openapi-react-query": "^0.5.4",

@@ -2,11 +2,13 @@ import { withThemeByDataAttribute } from '@storybook/addon-themes';
 
 import type { Preview } from '@storybook/react-vite';
 import { RouterContextProvider } from '@tanstack/react-router';
-import { router } from '../src/router';
+import { getRouter } from '../src/router';
 
 import { withLocale } from './decorators';
 
 import '../src/styles.css';
+
+const router = getRouter();
 
 const preview: Preview = {
   globalTypes: {

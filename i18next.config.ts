@@ -7,7 +7,7 @@ export default defineConfig({
 
   extract: {
     input: ['src/**/*.{ts,tsx}'],
-    output: 'public/locales/{{language}}/{{namespace}}.json',
+    output: 'src/locales/{{language}}/{{namespace}}.json',
 
     defaultNS: '_',
     nsSeparator: ':',
@@ -36,7 +36,7 @@ export default defineConfig({
   },
 
   types: {
-    input: ['public/locales/ko/*.json'],
+    input: ['src/locales/ko/*.json'],
     output: 'src/@types/i18next.d.ts',
     resourcesFile: 'src/@types/resources.d.ts',
     enableSelector: false,

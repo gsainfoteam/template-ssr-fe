@@ -18,6 +18,7 @@
         "dayjs": "^1.11.20",
         "i18next": "^25.10.3",
         "i18next-http-backend": "^3.0.2",
+        "i18next-resources-to-backend": "^1.2.1",
         "lucide-react": "^0.545.0",
         "openapi-fetch": "^0.17.0",
         "openapi-react-query": "^0.5.4",
@@ -942,6 +943,8 @@
     "i18next-http-backend": ["i18next-http-backend@3.0.4", "", { "dependencies": { "cross-fetch": "4.1.0" } }, "sha512-udwrBIE6cNpqn1gRAqRULq3+7MzIIuaiKRWrz++dVz5SqWW2VwXmPJtAgkI0JtMLFaADC9qNmnZAxWAhsxXx2g=="],
 
     "i18next-resources-for-ts": ["i18next-resources-for-ts@2.0.2", "", { "dependencies": { "@babel/runtime": "^7.28.6", "@swc/core": "^1.15.18", "chokidar": "^5.0.0", "yaml": "^2.8.2" }, "bin": { "i18next-resources-for-ts": "bin/i18next-resources-for-ts.js" } }, "sha512-BGPebhvjrvU+pgKNsIzb3cxl6/8LJw1pxNkIlUpnxCC4SXjbIwXeHuNxFnOkTAryRfMqYf81lPjYD2gngDyOfQ=="],
+
+    "i18next-resources-to-backend": ["i18next-resources-to-backend@1.2.1", "", { "dependencies": { "@babel/runtime": "^7.23.2" } }, "sha512-okHbVA+HZ7n1/76MsfhPqDou0fptl2dAlhRDu2ideXloRRduzHsqDOznJBef+R3DFZnbvWoBW+KxJ7fnFjd6Yw=="],
 
     "iconv-lite": ["iconv-lite@0.6.3", "", { "dependencies": { "safer-buffer": ">= 2.1.2 < 3.0.0" } }, "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw=="],
 

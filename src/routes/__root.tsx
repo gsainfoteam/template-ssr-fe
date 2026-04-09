@@ -5,12 +5,14 @@ import { HeadContent, Outlet, Scripts, createRootRouteWithContext } from '@tanst
 import { I18nextProvider } from 'react-i18next';
 
 import '@/common/lib/dayjs';
-import { i18n } from '@/common/lib/i18n';
 import { ErrorPage, NotFoundPage } from '@/common/pages';
+
+import type { i18n as I18nType } from 'i18next';
 import '../styles.css';
 
 interface RouterContext {
   queryClient: QueryClient;
+  i18n: I18nType;
 }
 
 export const Route = createRootRouteWithContext<RouterContext>()({
@@ -30,10 +32,10 @@ export const Route = createRootRouteWithContext<RouterContext>()({
 });
 
 function RootComponent() {
-  const { queryClient } = Route.useRouteContext();
+  const { queryClient, i18n } = Route.useRouteContext();
 
   return (
-    <html lang="en">
+    <html lang={i18n.language}>
       <head>
         <HeadContent />
       </head>
